@@ -1,6 +1,6 @@
 string jsonrpc_request(string method, string params_type, list params, string id)
 {
-    if (id == NULL_KEY) id = (string) llGenerateKey();
+    if (id == "") id = (string) llGenerateKey();
     return llList2Json(JSON_OBJECT, ["jsonrpc", "2.0", "id", id, "method", method, "params", llList2Json(params_type, params)]);
 }
 
