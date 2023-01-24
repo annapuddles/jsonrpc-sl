@@ -1,5 +1,6 @@
 /**
- * @file jsonrpc-sl
+ * @file
+ * JSON-RPC helper functions for LSL.
  */
 
 /**
