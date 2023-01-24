@@ -1,1 +1,2 @@
-
+FILE_PATTERNS = *.lsl
+EXTENSION_MAPPING = .lsl=C
