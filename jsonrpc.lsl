@@ -1,4 +1,8 @@
 /**
+ * @file jsonrpc-sl
+ */
+
+/**
  * Create a JSON object for a JSON-RPC request.
  * @param method The name of the JSON-RPC method to call.
  * @param params_type One of JSON_OBJECT or JSON_ARRAY, indicating how the parameters list should be interpreted.
