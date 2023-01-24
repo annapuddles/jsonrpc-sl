@@ -1,0 +1,8 @@
+name: Generate documentation
+on: [push]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Doxygen Action
+        uses: mattnotmitt/doxygen-action@1.9.5
